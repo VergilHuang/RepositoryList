@@ -24,7 +24,6 @@ const RepoCard: FC<Props> = ({ datasource }) => {
                 <div className="repo-watcher">
                     <FontAwesomeIcon icon={"eye"} style={watcherIconStyle} />
                     <span>{watchers_count}</span>
-                    {/* <span>{241423}</span> */}
                 </div>
                 <p className="repo-desc">
                     {description}

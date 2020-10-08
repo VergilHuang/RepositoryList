@@ -4,11 +4,8 @@ import RepoCard from '../RepoCard';
 import { RepoDataInterface } from '../../interfaces/RepoDataInterface';
 import octokit from '../../octokit.config';
 
-type Props = {
 
-}
-
-const RepoList: FC<Props> = (props) => {
+const RepoList: FC = () => {
 
     const username = "VergilHuang";
 
